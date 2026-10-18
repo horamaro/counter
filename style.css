@@ -6,10 +6,26 @@
   width: fit-content;
   font-size: 16px;
 }
+
+.counter.red {
+  border-color: red;
+}
+.counter.blue {
+  border-color: blue;
+}
+
 .counter-number {
   font-size: 30px;
   margin-bottom: 8px;
 }
+
+.red .counter-number {
+  color: red;
+}
+.blue .counter-number {
+  color: blue;
+}
+
 .counter-btns {
   display: flex;
   gap: 12px;

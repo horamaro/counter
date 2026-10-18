@@ -3,7 +3,7 @@
   const $countNumber = document.getElementById("js-counter");
 
   if (!$buttons || !$countNumber) return;
-  console.log($buttons);
+  //console.log($buttons);
 
   $buttons.forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -15,7 +15,7 @@
         $countNumber.textContent = count - 1;
         color();
       }
-      console.log(btn);
+      //console.log(btn);
     });
   });
 
